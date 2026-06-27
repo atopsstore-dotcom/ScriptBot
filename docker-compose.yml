@@ -1,0 +1,10 @@
+services:
+  scriptbot:
+    build: .
+    container_name: scriptbot
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./assets:/app/assets
+      - ./backups:/app/backups
