@@ -62,7 +62,7 @@ ScriptBot — это Telegram-бот для публикации, хранени
 После загрузки проекта на GitHub поменяйте `USERNAME/ScriptBot` на свой репозиторий:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/USERNAME/ScriptBot/main/install.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/atopsstore-dotcom/ScriptBot/main/install.sh)
 ```
 
 Скрипт покажет меню:
@@ -89,7 +89,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/USERNAME/ScriptBot/main/inst
 ## Ручной запуск
 
 ```bash
-git clone https://github.com/USERNAME/ScriptBot.git /opt/scriptbot
+git clone https://github.com/atopsstore-dotcom/ScriptBot.git /opt/scriptbot
 cd /opt/scriptbot
 cp .env.example .env
 nano .env
