@@ -59,8 +59,6 @@ ScriptBot — это Telegram-бот для публикации, хранени
 
 ## Установка одной командой
 
-После загрузки проекта на GitHub поменяйте `USERNAME/ScriptBot` на свой репозиторий:
-
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/atopsstore-dotcom/ScriptBot/main/install.sh)
 ```
