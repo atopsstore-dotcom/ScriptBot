@@ -57,6 +57,26 @@ ScriptBot — это Telegram-бот для публикации, хранени
 
 Для конвертера GIF/видео используется FFmpeg внутри Docker-контейнера.
 
+## Подготовка сервера
+
+Перед установкой рекомендуется удалить старые версии Docker и `containerd`, если они уже присутствуют в системе. Это предотвратит ошибку:
+
+```text
+containerd.io : Conflicts: containerd
+```
+
+Выполните:
+
+```bash
+sudo apt remove -y docker docker.io docker-engine containerd containerd.io runc
+sudo apt autoremove -y
+sudo apt update
+```
+
+После этого запускайте установку ScriptBot.
+
+> **Примечание:** На чистом сервере (Ubuntu 22.04/24.04 или Debian 12+) этот шаг обычно не требуется. Он нужен только в случае, если ранее уже устанавливался Docker или `containerd`.
+
 ## Установка одной командой
 
 ```bash
